@@ -1,0 +1,90 @@
+.certs-main {
+    /* background: linear-gradient(to top, rgb(0, 68, 0), rgb(94, 231, 94)); */
+    background: url("/images/Plastic-Texture-4.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-color: #131313;
+    font-family: sans-serif;
+    width: 100%;
+  }
+  
+  .certs-nav {
+    /* background-color: #707070; */
+    background: linear-gradient(rgb(215, 215, 215), rgb(93, 93, 93));
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 10px 7px -7px #3c3c3c;
+    padding-bottom: 10px;
+  
+  }
+  
+  .certs-nav img {
+    margin-top: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.8);
+  }
+  .certs-links {
+    font-size: 30px;
+  }
+  
+  .certs-links:hover {
+    color: black;
+    /* background-color: #fff; */
+    text-decoration: underline;
+    /* border-radius: 5px; */
+  }
+  
+  .certs-body{
+    border-radius: 5px;
+    background-color: #3c3c3cd3;
+    padding: 20px;
+    margin:20px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 30px;
+    text-shadow: 2px 2px black ;
+  }
+  
+  .certs-images {
+    padding: 20px 20px;
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(450px, 1fr)
+    ); /* Adjust the width as needed */
+    gap: 20px; /* Adjust the gap between grid items as needed */
+  }
+  
+  .certificate img {
+    width: 100%; /* Make sure the images fill the container */
+    height: auto;
+    box-shadow: 8px 8px 10px 1px rgba(0,0,0,0.75);
+  }
+  
+  @media screen and (max-width: 690px) {
+  
+    .certs-images {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the minmax value */
+    }
+  
+    .certs-links, .certs-body {
+      font-size: 4vw;
+      /* Makes the font shrink with the browser */
+    }
+  
+    .certs-nav img {
+      height: 50px;
+      width: 50px;
+    }
+  
+    .certificate img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  

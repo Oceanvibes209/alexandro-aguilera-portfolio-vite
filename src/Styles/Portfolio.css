@@ -1,0 +1,94 @@
+.port-main {
+    /* background: radial-gradient(
+      circle,
+      rgba(245, 91, 7, 1) 0%,
+      rgb(224, 154, 40) 100%
+    ); */
+  
+    background: url("/images/Plastic-Texture-15.jpg");
+    background-color: #131313;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 50px;
+  }
+  
+  .port-nav {
+    background: linear-gradient(rgb(215, 215, 215), rgb(93, 93, 93));
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    color: #fff;
+    box-shadow: 0 10px 7px -7px #3c3c3c;
+    padding-bottom: 10px;
+  }
+  
+  .port-links {
+    font-size: 30px;
+  }
+  
+  .port-links:hover {
+    color: black;
+    text-decoration: underline;
+    /* background-color: #fff; */
+    /* border-radius: 5px; */
+  }
+  
+  .port-nav img {
+    margin-top: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.8);
+  }
+  
+  .project {
+    color: #fff;
+    text-shadow: 2px 2px black ;
+    margin: 0 30px;
+    font-size: 20px;
+    overflow: hidden; /* Clear the float and prevent overlapping */
+  }
+  
+  .project p{
+    background-color: #3c3c3cc3;
+    /* font-size: 20px; */
+  }
+  
+  .project img {
+    float: right;
+    width: 400px;
+    height: 200px;
+    margin-left: 20px; /* Adjust margin as needed for spacing */
+  }
+  
+  /* Clear the float for each .project element */
+  .project:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 690px) {
+    .port-links {
+      font-size: 4vw; 
+      /* Makes the font shrink with the browser */
+    }
+  
+    .port-nav img {
+      height: 50px;
+      width: 50px;
+    }
+  
+    .project p{
+      font-size:4vw;
+    }
+  
+    /* To make the images flexible */
+    .project img{ 
+      max-width: 100%;
+      height: auto;
+      width: auto\9;
+    }
+  }
