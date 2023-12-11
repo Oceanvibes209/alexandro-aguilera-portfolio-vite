@@ -42,7 +42,7 @@ const Portfolio = () => {
 
                 <div className="project">
                 <h1>BVT Rock Paper Scissors</h1>
-                <a href="https://rock-paper-scissors-project-aa.netlify.app/" target="_blank" rel="noreferrer"><img src="./public/images/BVT-JSfinal-RPSLS.png" alt=""></img></a>
+                <a href="https://rock-paper-scissors-project-aa.netlify.app/" target="_blank" rel="noreferrer"><img src="./images/bvt-jsfinal.png" alt=""></img></a>
                 <p>
                     A spin on the classic rock paper scissors inspired by The Big Bang Theory. This final project for the BVT JavaScript is mainly JS with some CSS styling.
                     The goal was to showcase some JavaScript logic and make a fun game that works well and looks just as good.  
