@@ -37,9 +37,18 @@ const Certifications = () => {
                 <div className="certificate">
                     <img src="/images/BVT-JavaScript-Cert.png" alt="Certificates" loading="lazy"></img>
                 </div>
+                <div className="certificate">
+                    <img src="/public/images/Asynchronous-JavaScript-Cert.jpg" alt="Certificates" loading="lazy"></img>
+                </div>
+                <div className="certificate">
+                    <img src="/public/images/React-Cert.jpg" alt="Certificates" loading="lazy"></img>
+                </div>
+                <div className="certificate">
+                    <img src="/public/images/Front-End-Web-Cert.jpg" alt="Certificates" loading="lazy"></img>
+                </div>
 
                 <div className="certificate">
-                    <img src="./images/FCC-Web-Design-Cert.png" alt="Certificates" loading="lazy"></img>
+                    <img src="/images/FCC-Web-Design-Cert.png" alt="Certificates" loading="lazy"></img>
                 </div>
             </div>
 
