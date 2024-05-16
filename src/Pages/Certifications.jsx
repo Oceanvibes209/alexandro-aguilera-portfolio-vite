@@ -48,6 +48,14 @@ const Certifications = () => {
                 </div>
 
                 <div className="certificate">
+                    <img src="./images/Intro-to-Back-End-Cert.jpg" alt="Certificates" loading="lazy"></img>
+                </div>
+
+                <div className="certificate">
+                    <img src="./images/Full-Stack-Cert.jpg" alt="Certificates" loading="lazy"></img>
+                </div>
+
+                <div className="certificate">
                     <img src="./images/FCC-Web-Design-Cert.png" alt="Certificates" loading="lazy"></img>
                 </div>
             </div>
